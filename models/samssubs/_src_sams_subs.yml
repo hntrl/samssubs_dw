@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: raw_ingest
+    database: GROUP6PROJECT
+    schema: RAW_SAMSSUBS
+    tables:
+      - name: s_Customer
+      - name: s_Employee
+      - name: s_Order
+      - name: s_OrderLineItem
+      - name: s_Product
+      - name: s_Sandwich
+      - name: s_Store
